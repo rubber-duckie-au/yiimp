@@ -20,6 +20,30 @@ echo <<<end
 <table cellspacing=20 width=100%>
 <tr><td valign=top width=50%>
 
+<div class="main-left-box">
+<div class="main-left-title">XDN CURRENT PRICE</div>
+<div class="main-left-inner">
+
+
+<div id='xdn_price'></div>
+
+</div></div>
+<br/>
+
+<div class="main-left-box">
+<div class="main-left-title">XDN ANNOUNCEMENTS</div>
+<div class="main-left-inner">
+
+<ul>
+<li><b><font color="green"> - 0% FEES</font></b></li>
+<li><b><font color="green"> - NEW SERVER + NEW CODE</font></b></li>
+
+
+</ul>
+</div></div>
+<br/>
+
+
 <div id='mining_results'>
 <br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br>
@@ -85,6 +109,7 @@ function page_refresh()
 	pool_current_refresh();
 	mining_refresh();
 	found_refresh();
+	xdn_price_refresh();
 
 	if(global_algo != 'all')
 	{
@@ -92,6 +117,22 @@ function page_refresh()
 		main_refresh_price();
 	}
 }
+
+////////////////////////////////////////////////////
+
+function xdn_price_ready(data)
+{
+	$('#xdn_price').html(data);
+}
+
+function xdn_price_refresh()
+{
+	var url = "/site/XDN_price";
+	$.get(url, '', xdn_price_ready);
+}
+
+////////////////////////////////////////////////////
+
 
 ////////////////////////////////////////////////////
 

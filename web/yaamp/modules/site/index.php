@@ -27,18 +27,16 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 <!--  -->
 
 <div class="main-left-box">
-<div class="main-left-title"><?=YAAMP_SITE_URL?></div>
+<div class="main-left-title">XDN MINING POOL</div>
 <div class="main-left-inner">
 
 <ul>
-
-<li>Welcome to your new mining pool, <?=YAAMP_SITE_URL?>! </li>
-<li>YiiMP is a pool management solution based on the Yii Framework.</li>
-<li>This fork was based on the yaamp source code and is now an open source project.</li>
-<li>No registration is required, we do payouts in the currency you mine. Use your wallet address as the username.</li>
+<img src="/images/duckie_header.jpg" width="100%" height="auto">
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+<div class="coinmarketcap-currency-widget" data-currencyid="405" data-base="USD"  data-secondary="BTC"></div>
 <li>&nbsp;</li>
+<li><b>DISCLAIMER: This site is in no way affiliated with the DigitalNote Project. They do not maintain or contribute to this site in any way. If you have any issues, please do not hassle them about it. Please use support Email/Discord in Site Support Links below.</b></li>
 <li>Payouts are made automatically every <?= $payout_freq ?> for all balances above <b><?= $min_payout ?></b>, or <b><?= $min_sunday ?></b> on Sunday.</li>
-<li>For some coins, there is an initial delay before the first payout, please wait at least 6 hours before asking for support.</li>
 <li>Blocks are distributed proportionally among valid submitted shares.</li>
 
 <br/>
@@ -47,6 +45,35 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 </div></div>
 <br/>
 
+<div class="main-left-box">
+<div class="main-left-title">POOL ANNOUNCEMENTS</div>
+<div class="main-left-inner">
+<li><b><font color="green"> - 0% FEES</font></b></li>
+<li><b><font color="green"> - NEW SERVER + NEW CODE</font></b></li>
+
+<br/>
+
+
+</ul>
+</div></div>
+<br/>
+
+<div class="main-left-box">
+<div class="main-left-title">OFFICIAL XDN TWEETS</div>
+<div class="main-left-inner">
+
+<ul>
+
+            <div class="box-body">
+                <a class="twitter-timeline" data-height="600" data-chrome="noheader nofooter noborders"
+                   data-theme="light" data-link-color="#2B7BB9"
+                   href="https://twitter.com/digitalnotexdn">Tweets by XDN</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+
+
+</ul>
+</div></div><br>
 <!-- Stratum Auto generation code, will automatically add coins when they are enabled and auto ready -->
 
 <div class="main-left-box">
@@ -159,7 +186,7 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 <!-- End new stratum generation code  -->
 
 <div class="main-left-box">
-<div class="main-left-title"><?=YAAMP_SITE_URL?> Links</div>
+<div class="main-left-title">DIGITALNOTE LINKS</div>
 <div class="main-left-inner">
 
 <ul>
@@ -188,7 +215,7 @@ endif;
 </div></div><br>
 
 <div class="main-left-box">
-<div class="main-left-title"><?=YAAMP_SITE_URL?> Support</div>
+<div class="main-left-title">SITE SUPPORT LINKS</div>
 <div class="main-left-inner">
 
 <ul class="social-icons">
@@ -200,6 +227,12 @@ endif;
 </ul>
 
 </div></div><br>
+
+<!--  -->
+
+<!--<a class="twitter-timeline" href="https://twitter.com/hashtag/YAAMP" data-widget-id="617405893039292417" data-chrome="transparent" height="450px" data-tweet-limit="3" data-aria-polite="polite">Tweets about #YAAMP</a> -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 </td><td valign=top>
 <!--  -->
 
