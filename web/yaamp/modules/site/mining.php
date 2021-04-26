@@ -127,7 +127,7 @@ function xdn_price_ready(data)
 
 function xdn_price_refresh()
 {
-	var url = "/site/XDN_price";
+	var url = "/site/XDN_price"+querystring;
 	$.get(url, '', xdn_price_ready);
 }
 

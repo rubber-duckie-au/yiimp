@@ -443,6 +443,13 @@ class SiteController extends CommonController
 		$this->renderPartialAlgoMemcached('results/history_results');
 	}
 
+////////////
+	public function actionXDN_price()
+	{
+		$this->renderPartial('XDN_price');
+	}
+////////////
+
 	// Pool Tab : Top left panel with estimated profit per coin
 	public function actionMining_results()
 	{

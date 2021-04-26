@@ -219,11 +219,11 @@ endif;
 <div class="main-left-inner">
 
 <ul class="social-icons">
-    <li><a href="http://www.facebook.com"><img src='/images/Facebook.png' /></a></li>
-    <li><a href="http://www.twitter.com"><img src='/images/Twitter.png' /></a></li>
-    <li><a href="http://www.youtube.com"><img src='/images/YouTube.png' /></a></li>
-    <li><a href="http://www.github.com"><img src='/images/Github.png' /></a></li>
-    <li><a href="http://www.discord.com"><img src='/images/discord.png' /></a></li>
+    <li><a href="https://www.facebook.com/digitalnote"><img src='/images/Facebook.png' /></a></li>
+    <li><a href="https://twitter.com/digitalnotexdn"><img src='/images/Twitter.png' /></a></li>
+<!--    <li><a href="http://www.youtube.com"><img src='/images/YouTube.png' /></a></li> -->
+    <li><a href="https://github.com/DigitalNoteXDN/DigitalNote-2"><img src='/images/Github.png' /></a></li>
+    <li><a href="https://discord.gg/UFzb7JC"><img src='/images/discord.png' /></a></li>
 </ul>
 
 </div></div><br>
