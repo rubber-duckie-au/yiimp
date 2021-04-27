@@ -48,8 +48,10 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 <div class="main-left-box">
 <div class="main-left-title">POOL ANNOUNCEMENTS</div>
 <div class="main-left-inner">
-<li><b><font color="green"> - 0% FEES</font></b></li>
+<li><b><font color="green"> - LOW FEES</font></b></li>
 <li><b><font color="green"> - NEW SERVER + NEW CODE</font></b></li>
+<li><b><font color="green"> - SOLO MINING</font></b></li>
+
 
 <br/>
 
@@ -95,11 +97,9 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 			<select id="drop-stratum" colspan="2" style="min-width: 140px; border-style:solid; padding: 3px; font-family: monospace; border-radius: 5px;">
 
 			<!-- Add your stratum locations here -->
-			<option value="asia.">Asia Stratum</option>
-			<option value="na.">North America Stratum</option>
-			<!--	<option value="cad.">CAD Stratum</option>
-			<option value="uk.">UK Stratum</option> -->
+			<option value="">Singapore Stratum</option>
 			</select>
+
 		</td>
 
 		<td>
@@ -186,13 +186,19 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 <!-- End new stratum generation code  -->
 
 <div class="main-left-box">
-<div class="main-left-title">DIGITALNOTE LINKS</div>
+<div class="main-left-title">SITE SUPPORT LINKS</div>
 <div class="main-left-inner">
 
 <ul>
 
 <li><b>API</b> - <a href='/site/api'>http://<?=YAAMP_SITE_URL?>/site/api</a></li>
 <li><b>Difficulty</b> - <a href='/site/diff'>http://<?=YAAMP_SITE_URL?>/site/diff</a></li>
+<ul class="social-icons">
+    <li><a href="https://twitter.com/RubberDuckie_AU"><img src='/images/Twitter.png' /></a></li>
+    <li><a href="https://discord.gg/nVCkg4Njcj"><img src='/images/discord.png' /></a></li>
+</ul>
+
+
 <?php
 if (YIIMP_PUBLIC_BENCHMARK):
 ?>
@@ -215,7 +221,7 @@ endif;
 </div></div><br>
 
 <div class="main-left-box">
-<div class="main-left-title">SITE SUPPORT LINKS</div>
+<div class="main-left-title">DIGITALNOTE LINKS</div>
 <div class="main-left-inner">
 
 <ul class="social-icons">
@@ -225,6 +231,7 @@ endif;
     <li><a href="https://github.com/DigitalNoteXDN/DigitalNote-2"><img src='/images/Github.png' /></a></li>
     <li><a href="https://discord.gg/UFzb7JC"><img src='/images/discord.png' /></a></li>
 </ul>
+
 
 </div></div><br>
 

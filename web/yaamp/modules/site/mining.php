@@ -35,8 +35,10 @@ echo <<<end
 <div class="main-left-inner">
 
 <ul>
-<li><b><font color="green"> - 0% FEES</font></b></li>
+<li><b><font color="green"> - LOW FEES</font></b></li>
 <li><b><font color="green"> - NEW SERVER + NEW CODE</font></b></li>
+<li><b><font color="green"> - SOLO MINING</font></b></li>
+
 
 
 </ul>
