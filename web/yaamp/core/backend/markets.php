@@ -13,6 +13,7 @@ function BackendPricesUpdate()
 	updateAltillyMarkets();
 	updateBiboxMarkets();
 	updateBitzMarkets();
+	updateBittrexMarkets();
 	updatePoloniexMarkets();
 	updateBleutradeMarkets();
 	updateDelionDexMarkets();
