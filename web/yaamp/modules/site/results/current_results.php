@@ -20,7 +20,7 @@ echo <<<END
 <th data-sorter="numeric" align="center">Miners<br/>Pool/Solo</th>
 <th data-sorter="numeric" align="center">Pool HashRate</th>
 <th data-sorter="numeric" align="center">Network Hashrate</th>
-<th data-sorter="currency" align="center">Fees<br/>Share/Solo</th>
+<th data-sorter="currency" align="center">Fees<br/>Pool/Solo</th>
 <!--<th data-sorter="currency" class="estimate" align="right">Current<br />Estimate</th>-->
 <!--<th data-sorter="currency" >Norm</th>-->
 <!--<th data-sorter="currency" class="estimate" align="right">24 Hours<br />Estimated</th>-->
