@@ -194,6 +194,8 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600) . " hours";
 <li><b>API</b> - <a href='/site/api'>http://<?=YAAMP_SITE_URL?>/site/api</a></li>
 <li><b>Difficulty</b> - <a href='/site/diff'>http://<?=YAAMP_SITE_URL?>/site/diff</a></li>
 <ul class="social-icons">
+    <li><a href='/site/api><img src='/images/api.jpg' /></a></li>
+    <li><a href='/site/diff'><img src='/images/gauge.png' /></a></li>
     <li><a href="https://twitter.com/RubberDuckie_AU"><img src='/images/Twitter.png' /></a></li>
     <li><a href="https://discord.gg/nVCkg4Njcj"><img src='/images/discord.png' /></a></li>
 </ul>
